@@ -14,7 +14,7 @@
 ## 生成依存关系数据
 
 - 安装 java 环境(>=java8)
-- 下载编译好的 jar 包
+- 下载[编译好的jar包](https://github.com/chuangfengwang/nlp-parser/releases/tag/v1.0.0). 当然也可以自己下载源码打包,需要 maven 工具
 - 下载[模型文件](https://file.hankcs.com/hanlp/data-for-1.7.5.zip),解压到 jar 包同一个目录下 目录结构如下
 
 ```text
