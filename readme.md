@@ -18,13 +18,13 @@
 │             ├── model
 │             ├── README.url
 │             └── version.txt
-└── nlp-parser-1.0-SNAPSHOT-jar-with-dependencies.jar
+└── nlp-parser-1.0.0-jar-with-dependencies.jar
 ```
 
 - 运行命令以生成依存关系数据
 
 ```bash
-xxx@xxx:~$ java -jar nlp-parser-1.0-SNAPSHOT-jar-with-dependencies.jar --help
+xxx@xxx:~$ java -jar nlp-parser-1.0.0-jar-with-dependencies.jar --help
 usage: 用法: java -jar <this_file>.jar <options> files...
 模型文件需要放在 ./hanlp-data/
  -c,--conll <conllFile>     中间结果coNLL文件输出路径. 默认: ./conll_output.txt
@@ -36,7 +36,7 @@ usage: 用法: java -jar <this_file>.jar <options> files...
 如:
 
 ```bash
-java -jar nlp-parser-1.0-SNAPSHOT-jar-with-dependencies.jar -r filterRegex.txt -c conll_output.txt -d nlpparsed.sqlite3
+java -jar nlp-parser-1.0.0-jar-with-dependencies.jar -r filterRegex.txt -c conll_output.txt -d nlpparsed.sqlite3
 data/shentiyundongxunlian.txt data/tushouxunlian.txt data/yujia.txt
 ```
 
