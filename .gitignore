@@ -40,4 +40,3 @@ hanlp-data/
 *.sqlite3
 *.sqlite3-journal
 /conll_output.txt
-/filterRegex.txt
